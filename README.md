@@ -1,3 +1,6 @@
-<h1> Rail-Fence-Cipher </h1>
+<h1> Criptografias </h1>
 
-<p>App criado para a semana de programação do centro universitario adventista (UNASP), o app criptografa e discriptografa algo utilizando o metodo cerca de trilho. </p>
+<p>Apps criados para a semana de programação do centro universitario adventista (UNASP), foram desenvolvidos 3 apps com o intuido de criptografar e descriptografar em 3 metodos diferentes </p>
+
+<p>Sendo eles:</p>
+
