@@ -4,7 +4,7 @@
 
 <p>Sendo eles:</p>
 - Cifra de Vigenére </br>
-- Cifra de Cezar </br>
+- Cifra de César </br>
 - Cerca de Trilho </br>
 
 <p>A linguagem de programação utilizada foi python</p>
