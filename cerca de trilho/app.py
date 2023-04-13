@@ -86,27 +86,31 @@ def decrypt_text():
     result_label['text'] = "Texto Desencriptado: " + plaintext
 
 root = Tk()
+root.geometry('500x300')
 root.title("Cifra de Trilho")
 
 label = Label(root, text="Digite o texto:")
 label.pack()
 
 entry = Entry(root)
+entry["width"] = 60
 entry.pack()
 
 key_label = Label(root, text="Digite a chave de encriptação:")
 key_label.pack()
 
 key_entry = Entry(root)
+key_entry["width"] = 60
 key_entry.pack()
 
 encrypt_button = Button(root, text="Encriptar", command=encrypt_text)
-encrypt_button.pack(side=LEFT)
+encrypt_button.pack(side=BOTTOM)
 
 decrypt_button = Button(root, text="Desencriptar", command=decrypt_text)
-decrypt_button.pack(side=RIGHT)
+decrypt_button.pack(side=BOTTOM)
 
 result_label = Label(root, text="")
+result_label["width"] = 70
 result_label.pack()
 
 
